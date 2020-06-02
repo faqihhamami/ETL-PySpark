@@ -12,6 +12,6 @@ psql -U postgres
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
 
 ### dataset
-I've scrapped data from Bukalapak.com with 15000 rows and 7 columns ('index', 'city', 'price', 'rating', 'store', 'title', 'ulasan')
+I'll use titanic dataset and do little data preprocessing such as imputing missing values 
 
 
